@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track&Trace</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="center-nav-content">
+            <div id="home-logo"><img src="./img/NoLimitLogo100x50px_pl.png"></div>
+            <div id="bar">
+                <div id="title" class="nav-buttons">
+                    <div>TRACK & TRACE</div>
+                </div>
+                <div id="nav-group-right">
+                    <div id="login-button" class="nav-buttons">
+                        <div>ZALOGUJ</div>
+                    </div>
+                    <div id="language-select-box" class="nav-buttons">
+                        <div>
+                            <span>PL</span>
+                            <img src="./img/down-arrow.png">
+                        </div>
+                        <div id="dropdown-content">
+                            <a></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="main" class="center-content">
+        <div class="center-main-content">
+            <form>
+                <h3>Wyszukaj przesyłkę</h3>
+                <p>Witamy w No Limit Track & Trace. Tu sprawdzisz status swojej przesyłki w sieci dystrybucyjnej No Limit. Wystarczy, że wprowadzisz odpowiedni numer w pole wyszukiwania. Jeżeli potrzebujesz więcej szczegółowych informacji zaloguj się lub skontaktuj bezpośrednio z lokalnym Customer Service.</p>
+                <div id="radio-box">
+                    <label class="container" for="przesylka">
+                        Nr przesyłki
+                        <input type="radio" id="przesylka" value="" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container" for="zlecenie">
+                        Nr zlecenia klienta
+                        <input type="radio" id="zlecenie" value="">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container" for="paczka">
+                        Nr paczki
+                        <input type="radio" id="paczka" value="">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container" for="inne">
+                        Nr inny (DN, WZ, etc.)
+                        <input type="radio" id="inne" value="">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="center-content">
+        <div class="center-main-content">
+            <div id="mail" class="footer-buttons">
+                <img src="./img/email.png">
+                <div>info@nolimit.pl</div>
+            </div>
+            <div id="phone" class="footer-buttons">
+                <img src="./img/phone-call.png">
+                <div>+48 22 460 40 40</div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
